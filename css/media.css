@@ -1,0 +1,599 @@
+/* Variables CSS Start Here */
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #000000;
+    --orange-color: #ff7800;
+    --blue-color: #0fb5de;
+    --gray-color: #4e4e57;
+    --overlay-color: rgba(0, 0, 0, 0.6);
+    --overlay-color2: rgba(0, 0, 0, 0.4);
+    --overlay-color3: rgba(0, 0, 0, 0.8);
+    --bg-color: #02020F;
+}
+
+/* Variables CSS End Here */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* ================= NavBar Part Media CSS Start Here ================ */
+    /* Navbar Part CSS Start Here */
+    .navbar .navbar-brand {
+        font-size: 25px;
+    }
+    .navbar .navbar-nav .nav-link {
+        font-size: 14px;
+        margin-left: 12px;
+    }
+    .form-inline .form-control {
+        width: 110px;
+        font-size: 14px;
+    }
+    .search_btn {
+        font-size: 14px;
+    }
+    .log_btn {
+        font-size: 14px;
+    }
+    /* Navbar Part CSS End Here */
+
+    /* ================= NavBar Part Media CSS End Here ================ */
+
+
+
+
+    /* ==================================================== */
+    /* =========== Home Page Media CSS Start Here =========== */
+    /* ==================================================== */
+
+    /* Banner Part CSS Start Here */
+    .flix_banner_overlay {
+        padding-top: 140px;
+        padding-bottom: 130px;
+    }
+    .flix_banner_heading {
+        display: none;
+    }
+    /* Banner Part CSS End Here */
+
+    /* New Arrivals Part CSS Start Here */
+    .movo_video_box_content a {
+        font-size: 17px;
+    }
+    .movo_video_box_content .movo_tag p {
+        font-size: 11px;
+        line-height: 10px;
+    }
+    /* New Arrivals Part CSS End Here */
+
+    /* ==================================================== */
+    /* =========== Home Page Media CSS End Here =========== */
+    /* ==================================================== */
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* ================= NavBar Part Media CSS Start Here ================ */
+    /* Navbar Part CSS Start Here */
+    .navbar {
+        background: var(--bg-color);
+    }
+    .navbar .navbar-brand {
+        font-size: 26px;
+    }
+    .navbar-toggler i {
+        color: var(--orange-color);
+        font-size: 22px;
+    }
+    .navbar-nav {
+        background: var(--bg-color);
+        padding: 3px;
+        height: auto;
+    }
+    .navbar .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+    /* Navbar Part CSS End Here */
+
+    /* ================= NavBar Part Media CSS End Here ================ */
+
+
+
+
+    /* ==================================================== */
+    /* =========== Home Page Media CSS Start Here =========== */
+    /* ==================================================== */
+
+    /* Banner Part CSS Start Here */
+    .flix_banner_overlay {
+        padding-top: 110px;
+        padding-bottom: 60px;
+    }
+    .flix_banner_heading {
+        display: none;
+    }
+    /* Banner Part CSS End Here */
+
+    /* Populer Part CSS Start Here */
+    #flix_populer {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    .prev_angle,
+    .next_angle {
+        top: -32px;
+    }
+    .arrivals_view_more_btn a {
+        padding: 10px 24px;
+        font-size: 14px;
+    }
+    /* Populer Part CSS End Here */
+
+    /* New Arrivals Part CSS Star Here */
+    #flix_arrivals {
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
+    /* New Arrivals Part CSS End Here */
+
+    /* Command Part CSS Start Here */
+    .command_desp p {
+        margin-bottom: 20px;
+    }
+    /* Command Part CSS End Here */
+
+    /* ==================================================== */
+    /* =========== Home Page Media CSS End Here =========== */
+    /* ==================================================== */
+
+
+
+
+
+    /* ==================================================== */
+    /* =========== About Us Page Media CSS Start Here =========== */
+    /* ==================================================== */
+
+    /* About Content Box CSS Start Here */
+    .ab_cont_min_box {
+        margin-bottom: 35px;
+    }
+    /* About Content Box CSS End Here */
+
+    /* ==================================================== */
+    /* =========== About Us Page Media CSS End Here =========== */
+    /* ==================================================== */
+
+
+
+    /* ==================================================== */
+    /* =========== Contact Us Page Media CSS End Here ========= */
+    /* ==================================================== */
+
+    /* Contact Form & Info Part CSS Start Here */
+    #contact_form_part {
+        padding: 0px 0px;
+    }
+    .contact_info_side {
+        margin-top: 80px;
+    }
+    .contact_title h2 {
+        margin-top: 30px;
+    }
+    /* Contact Form & Info Part CSS End Here */
+
+    /* ==================================================== */
+    /* =========== Contact Us Page Media CSS End Here ========= */
+    /* ==================================================== */
+
+
+
+
+    /* ================= Footer Part Media CSS Start Here ================ */
+    /* Footer Part CSS Start Here */
+    #footer_part {
+        padding: 50px 0px;
+    }
+    .footer_widget .widget_com_title h4 {
+        font-size: 16px;
+    }
+    .footer_widget .widget_content ul li a, p {
+        font-size: 14px;
+    }
+    /* Footer Part CSS End Here */
+    /* ================= Footer Part Media CSS End Here ================ */
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* ================= NavBar Part Media CSS Start Here ================ */
+    /* Navbar Part CSS Start Here */
+    .navbar {
+        background: var(--bg-color);
+    }
+    .navbar .navbar-brand {
+        font-size: 24px;
+    }
+    .navbar-toggler i {
+        color: var(--orange-color);
+        font-size: 20px;
+    }
+    .navbar-nav {
+        background: var(--bg-color);
+        padding: 3px;
+        height: auto;
+    }
+    .navbar .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+    /* Navbar Part CSS End Here */
+    /* ================= NavBar Part Media CSS End Here ================ */
+
+
+
+    /* ==================================================== */
+    /* =========== Home Page Media CSS Start Here =========== */
+    /* ==================================================== */
+
+    /* Banner Part CSS Start Here */
+    .flix_banner_overlay {
+        padding-top: 80px;
+        padding-bottom: 35px;
+    }
+    .flix_banner_heading {
+        display: none;
+    }
+    /* Banner Part CSS End Here */
+
+    /* Populer Part CSS Start Here */
+    #flix_populer {
+        padding: 50px 0px;
+    }
+    .prev_angle,
+    .next_angle {
+        top: -32px;
+    }
+    .arrivals_view_more_btn a {
+        padding: 8px 22px;
+        font-size: 14px;
+    }
+    /* Populer Part CSS End Here */
+
+    /* New Arrivals Part CSS Star Here */
+    #flix_arrivals {
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
+    /* New Arrivals Part CSS End Here */
+
+    /* ==================================================== */
+    /* =========== Home Page Media CSS End Here =========== */
+    /* ==================================================== */
+
+
+
+
+    /* ==================================================== */
+    /* =========== About Us Page Media CSS Start Here =========== */
+    /* ==================================================== */
+
+    /* About Content Box CSS Start Here */
+    .ab_cont_min_box {
+        margin-bottom: 35px;
+    }
+    /* About Content Box CSS End Here */
+
+    /* ==================================================== */
+    /* =========== About Us Page Media CSS End Here =========== */
+    /* ==================================================== */
+
+
+
+    /* ==================================================== */
+    /* =========== Contact Us Page Media CSS End Here ========= */
+    /* ==================================================== */
+
+    /* Contact Form & Info Part CSS Start Here */
+    #contact_form_part {
+        padding: 0px 0px;
+    }
+    .contact_info_side {
+        margin-top: 80px;
+    }
+    .contact_title h2 {
+        margin-top: 20px;
+    }
+    /* Contact Form & Info Part CSS End Here */
+
+    /* ==================================================== */
+    /* =========== Contact Us Page Media CSS End Here ========= */
+    /* ==================================================== */
+
+
+
+
+    /* ================= Footer Part Media CSS Start Here ================ */
+    /* Footer Part CSS Start Here */
+    #footer_part {
+        padding: 50px 0px;
+    }
+    .footer_widget .widget_com_title h4 {
+        font-size: 15px;
+    }
+    .footer_widget .widget_content ul li a, p {
+        font-size: 13px;
+    }
+    /* Footer Part CSS End Here */
+
+    /* ================= Footer Part Media CSS End Here ================ */
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* ================= NavBar Part Media CSS Start Here ================ */
+    /* Navbar Part CSS Start Here */
+    .navbar {
+        background: var(--bg-color);
+    }
+    .navbar .navbar-brand {
+        font-size: 24px;
+    }
+    .navbar-toggler i {
+        color: var(--orange-color);
+        font-size: 20px;
+    }
+    .navbar-nav {
+        background: var(--bg-color);
+        padding: 3px;
+        height: auto;
+    }
+    .navbar .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+    /* Navbar Part CSS End Here */
+
+    /* ================= NavBar Part Media CSS End Here ================ */
+
+
+
+    /* ==================================================== */
+    /* =========== Home Page Media CSS Start Here =========== */
+    /* ==================================================== */
+
+    /* Banner Part CSS Start Here */
+    .flix_banner_overlay {
+        padding-top: 80px;
+        padding-bottom: 35px;
+    }
+    .flix_banner_heading {
+        display: none;
+    }
+    /* Banner Part CSS End Here */
+
+    /* Populer Part CSS Start Here */
+    #flix_populer {
+        padding: 35px 0px;
+    }
+    .prev_angle,
+    .next_angle {
+        top: -32px;
+    }
+    .arrivals_view_more_btn a {
+        padding: 6px 20px;
+        font-size: 14px;
+    }
+    /* Populer Part CSS End Here */
+
+    /* New Arrivals Part CSS Star Here */
+    #flix_arrivals {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    /* New Arrivals Part CSS End Here */
+
+    /* Command Part CSS Start Here */
+    .command_hand_box_overlay {
+        padding: 15px 15px;
+        background: var(--overlay-color);
+    }
+    .command_hand_box_content .command_title h2 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .command_season_episod ul li {
+        font-size: 14px;
+    }
+    .command_desp p {
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+    /* Command Part CSS End Here */
+
+    /* ==================================================== */
+    /* =========== Home Page Media CSS End Here =========== */
+    /* ==================================================== */
+
+
+
+    /* ==================================================== */
+    /* =========== Trailer Page Media CSS Start Here =========== */
+    /* ==================================================== */
+
+    /* Trailer Video Part CSS Start Here */
+    #video_trailer {
+        padding-top: 90px;
+        padding-bottom: 20px;
+    }
+    .f_trailer_video {
+        height: 350px;
+        width: 100%;
+    }
+    /* Trailer Video Part CSS Start Here */
+
+    /* ==================================================== */
+    /* =========== Trailer Page Media CSS End Here =========== */
+    /* ==================================================== */
+
+
+
+
+    /* ==================================================== */
+    /* =========== Sign In Page Media CSS Start Here =========== */
+    /* ==================================================== */
+
+    .sign_social ul li a {
+        padding: 4px 8px;
+    }
+
+    /* ==================================================== */
+    /* =========== Sign In Page Media CSS End Here =========== */
+    /* ==================================================== */
+
+
+
+
+    /* ==================================================== */
+    /* =========== About Us Page Media CSS Start Here =========== */
+    /* ==================================================== */
+
+    /* Breadcum Part CSS Start Here */
+    .breadcum_overlay {
+        padding-top: 135px;
+        padding-bottom: 95px;
+    }
+    .breadcum_heading h1 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .breadcum_heading span {
+        font-size: 38px;
+        font-weight: 800;
+        top: -18px;
+    }
+    /* Breadcum Part CSS End Here */
+
+    /* About Content/Box Part CSS Start Here */
+    #about_content {
+        padding: 45px 0px;
+    }
+    .ab_content_title h2 {
+        font-size: 22px;
+        line-height: 28px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .ab_cont_one p {
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .ab_cont_two p {
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .ab_cont_min_box {
+        margin-bottom: 30px;
+    }
+    .ab_cont_box_icon i {
+        font-size: 34px;
+    }
+    .ab_cont_box_text .box_text_title h4 {
+        font-size: 20px;
+    }
+    .ab_cont_box_text p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    /* About Content/Box Part CSS End Here */
+
+    /* ==================================================== */
+    /* =========== About Us Page Media CSS End Here =========== */
+    /* ==================================================== */
+
+    
+    
+    
+    
+    /* ==================================================== */
+    /* =========== Contact Us Page Media CSS End Here ========= */
+    /* ==================================================== */
+
+    /* Contact Form & Info Part CSS Start Here */
+    #contact_form_part {
+        padding: 0px 0px;
+    }
+    .contact_info_side {
+        margin-top: 80px;
+    }
+    .c_info_title_desp p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .contact_title h2 {
+        margin-top: 20px;
+    }
+    /* Contact Form & Info Part CSS End Here */
+
+    /* ==================================================== */
+    /* =========== Contact Us Page Media CSS End Here ========= */
+    /* ==================================================== */
+
+
+
+
+    /* ==================================================== */
+    /* =========== Privacy Page Media CSS Start Here ========= */
+    /* ==================================================== */
+
+    /* Privacy Policy Part CSS Start Here */
+    #flix_policy {
+        padding: 40px 0px;
+    }
+    .flix_policy_text .policy_text {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .policy_list .policy_min_list li h4 {
+        font-size: 14px;
+    }
+    .policy_list .policy_min_list li {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+    /* Privacy Policy Part CSS End Here */
+
+    /* ==================================================== */
+    /* =========== Privacy Page Media CSS End Here ========= */
+    /* ==================================================== */
+
+
+
+
+    /* ================= Footer Part Media CSS Start Here ================ */
+    /* Footer Part CSS Start Here */
+    #footer_part {
+        padding: 50px 0px;
+    }
+    .footer_widget .widget_com_title h4 {
+        font-size: 13px;
+    }
+    .footer_widget .widget_content ul li a, p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    /* Footer Part CSS End Here */
+    /* ================= Footer Part Media CSS End Here ================ */
+
+}

@@ -1,0 +1,1208 @@
+/* Variables CSS Start Here */
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #000000;
+    --orange-color: #ff7800;
+    --blue-color: #0fb5de;
+    --gray-color: #4e4e57;
+    --overlay-color: rgba(0, 0, 0, 0.6);
+    --overlay-color2: rgba(0, 0, 0, 0.4);
+    --overlay-color3: rgba(0, 0, 0, 0.8);
+    --bg-color: #02020F;
+}
+/* Variables CSS End Here */
+
+/* All Reset & Common CSS Start Here */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body {
+    background: var(--bg-color);
+}
+
+a,
+a:focus,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+
+.mt {
+    margin-top: 30px;
+}
+
+/* All Reset & Common CSS End Here */
+
+
+/* ===================== Header Part CSS Start Here ==================== */
+
+/* Header Part CSS Start Here */
+.navbar {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 99999;
+    background-color: rgba(2, 2, 15, 0.36);
+    border-bottom: 1px solid rgba(177, 209, 218, 0.644);
+}
+
+.navbar .navbar-brand {
+    color: var(--orange-color);
+    font-size: 32px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar .navbar-brand span {
+    color: var(--blue-color);
+}
+
+.navbar .navbar-nav .nav-link {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15px;
+    transition: all linear 0.5s;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--orange-color);
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu {
+    background: var(--primary-color);
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    transition: all linear 0.2s;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+    color: var(--orange-color);
+}
+
+.search_btn {
+    color: var(--primary-color);
+    background: var(--orange-color);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    transition: all linear 0.3s;
+}
+
+.search_btn:hover {
+    color: var(--primary-color);
+    background: var(--blue-color);
+}
+
+.log_btn {
+    color: var(--primary-color);
+    background: var(--orange-color);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    transition: all linear 0.3s;
+    color: var(--primary-color) !important;
+}
+
+.log_btn:hover {
+    color: var(--primary-color);
+    background: var(--blue-color);
+}
+
+/* Header Part CSS End Here */
+
+/* ===================== Header Part CSS End Here ==================== */
+
+
+/* ===================== Breadcroumb CSS Start Here ==================== */
+
+/* Breadcroumb Part CSS Start Here */
+#flixmovo_breadcum {
+    background: url(../img/aboutbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.breadcum_overlay {
+    padding-top: 200px;
+    padding-bottom: 150px;
+    background: var(--overlay-color2);
+}
+.breadcum_heading {
+    position: relative;
+}
+.breadcum_heading h1 {
+    color: var(--orange-color);
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.breadcum_heading span {
+    position: absolute;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    left: 0;
+    right: 0;
+    top: -40px;
+    opacity: .2;
+    letter-spacing: 4px;
+}
+/* Breadcroumb Part CSS End Here */
+
+/* ===================== Breadcroumb CSS End Here ==================== */
+
+
+
+/* ===================== Home Page CSS Start Here ==================== */
+
+/* Banner Part CSS Start Here */
+#flix_banner {
+    background: url(../img/minbanner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.flix_banner_overlay {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background: var(--overlay-color);
+    position: relative;
+}
+.flix_banner_heading h2 {
+    color: var(--primary-color);
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+.flix_banner_heading h2 span {
+    color: var(--orange-color);
+}
+
+.movo_video_box_img {
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* height: 400px; */
+    text-align: center;
+}
+
+.movo_video_box_img img {
+    transition: all linear 0.4s;
+}
+
+.movo_video_box_img:hover img {
+    transform: scale(1.1);
+}
+
+.movo_video_box_img .movo_video_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--overlay-color2);
+    content: "";
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.4s;
+}
+
+.movo_video_box_img:hover .movo_video_overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.movo_video_box_img .ply_btns {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.3s;
+}
+
+.movo_video_box_img:hover .ply_btns {
+    opacity: 1;
+    visibility: visible;
+}
+
+.movo_video_box_content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background: var(--overlay-color3);
+    z-index: 9999;
+    text-align: left;
+}
+
+.movo_video_box_content a {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: all linear 0.4s;
+}
+
+.movo_video_box_content:hover a {
+    white-space: normal;
+    text-overflow: clip;
+}
+
+.movo_video_box_content .movo_tag p {
+    color: var(--orange-color);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 18px;
+}
+
+.movo_video_box_content .movie_time i {
+    color: var(--primary-color);
+    font-size: 12px;
+    margin-right: 8px;
+}
+
+.movo_video_box_content .movie_time span {
+    color: var(--primary-color);
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.prev_arrow {
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: var(--primary-color);
+    background: var(--orange-color);
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.next_arrow {
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: var(--primary-color);
+    background: var(--orange-color);
+    cursor: pointer;
+    z-index: 9999;
+}
+
+/* Banner Part CSS End Here */
+
+
+/* New Arrivals Part CSS Start Here */
+#flix_arrivals {
+    background: var(--bg-color);
+    padding: 50px 0px;
+}
+
+.new_arrivals_title {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #11111d;
+}
+
+.new_arrivals_title h2 {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.new_arrivals_title h2 i {
+    color: var(--orange-color);
+    margin-right: 5px;
+}
+
+.arrivals_view_more_btn {
+    margin-top: 50px;
+}
+
+.arrivals_view_more_btn a {
+    color: var(--primary-color);
+    padding: 12px 42px;
+    border: 3px solid #4e4e57;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    transition: all linear 0.4s;
+}
+
+.arrivals_view_more_btn a:hover {
+    background: var(--blue-color);
+}
+
+.arrivals_view_more_btn a i {
+    color: var(--orange-color);
+    margin-left: 2px;
+}
+
+/* New Arrivals Part CSS End Here */
+
+
+/* Flix Command Part CSS Start Here */
+#flix_command_hand {
+    background: var(--bg-color);
+    padding: 40px 0px;
+}
+
+.cmd_box_one {
+    background: url(../img/command.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.cmd_box_two {
+    background: url(../img/command-asset-1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.command_hand_box_overlay {
+    padding: 50px 40px;
+    background: var(--overlay-color);
+}
+
+.command_hand_box_content .command_title h2 {
+    color: var(--primary-color);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.command_season_episod ul li {
+    display: inline-block;
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 15px;
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+.command_season_episod ul li a {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.command_desp p {
+    color: var(--primary-color);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.command_trailer_box img {
+    position: relative;
+}
+
+.command_play_btn a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    width: 25px;
+    height: 3px;
+    border: none;
+    /* border-radius: 5px; */
+}
+
+.slick-dots .slick-active button {
+    background: var(--orange-color);
+}
+
+/* Flix Command Part CSS End Here */
+
+
+/* Populer Item Part CSS Start Here */
+#flix_populer,
+#flix_crime {
+    background: var(--bg-color);
+    padding: 50px 0px;
+    position: relative;
+}
+
+.prev_angle {
+    position: absolute;
+    top: -28px;
+    right: 68px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: var(--primary-color);
+    cursor: pointer;
+    z-index: 9999;
+    /* position: relative; */
+}
+
+.prev_angle:hover {
+    color: var(--orange-color);
+}
+
+.prev_angle::after {
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background: #35353f;
+    content: "";
+    bottom: 3px;
+    margin: 0 6px;
+}
+
+.next_angle {
+    position: absolute;
+    top: -28px;
+    right: 40px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: var(--orange-color);
+    cursor: pointer;
+    z-index: 9999;
+}
+
+/* Populer Item Part CSS End Here */
+
+/* ===================== Home Page CSS End Here ==================== */
+
+
+
+/* ===================== Trailer Page CSS Start Here ==================== */
+
+/* Trailer Part CSS Start Here */
+#video_trailer {
+    background: var(--bg-color);
+    padding-top: 130px;
+    padding-bottom: 60px;
+}
+.video_trailer_holder iframe {
+    width: 100%;
+    height: 450px;
+}
+.trailer_movies {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.trailer_movie_img {
+    margin-top: 40px;
+}
+
+.trailer_movie_details {
+    margin-top: 45px;
+}
+
+.trailer_movie_img img {
+    width: 280px;
+    height: 380px;
+}
+
+.tr_movie_title h2 {
+    color: var(--blue-color);
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+
+.tr_movie_ratting span {
+    color: var(--orange-color);
+}
+
+.tr_movie_ratting a {
+    color: var(--primary-color);
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.tr_movie_category {
+    margin-top: 15px;
+}
+
+.tr_movie_category ul li span {
+    display: inline-block;
+    width: 85px;
+    color: var(--primary-color);
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tr_movie_category ul li span label {
+    text-align: right;
+    float: right;
+}
+
+.tr_movie_category ul li a {
+    color: var(--primary-color);
+    margin-left: 15px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.movies_desp_story {
+    margin-top: 10px;
+}
+
+.movies_desp_story .md_title h2 {
+    color: var(--blue-color);
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
+    margin-bottom: 5px;
+}
+
+.movies_desp_story p {
+    color: var(--primary-color);
+    font-size: 14px;
+}
+
+.movie_trailer_btn,
+.movie_down_btn {
+    margin-top: 10px;
+}
+
+.movie_trailer_btn a {
+    padding: 8px 20px;
+    background: var(--blue-color);
+    border-radius: 5px;
+    color: var(--primary-color);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.movie_down_btn a {
+    padding: 8px 20px;
+    background: var(--blue-color);
+    border-radius: 5px;
+    color: var(--primary-color);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+/* Trailer Part CSS End Here */
+
+/* ===================== Trailer Page CSS End Here ==================== */
+
+
+
+/* ===================== About Page CSS Start Here ==================== */
+
+/* About Content Part CSS Start Here */
+#about_content {
+    background: var(--bg-color);
+    padding: 80px 0px;
+}
+.ab_content_title h2 {
+    color: var(--primary-color);
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 42px;
+}
+.ab_content_title h2 span {
+    color: var(--blue-color);
+}
+.ab_cont_one p {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.ab_cont_two p {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/* About Content Part CSS End Here */
+
+/* About Content Box Part CSS Start Here */
+#ab_cont_box {
+    background: var(--bg-color);
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.ab_cont_min_box {
+    display: flex;
+}
+.ab_cont_box_icon i {
+    color: var(--blue-color);
+    font-size: 36px;
+    margin-right: 15px;
+}
+.ab_cont_box_text .box_text_title h4 {
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 15px;
+}
+.ab_cont_box_text p {
+    color: var(--primary-color);
+    font-size: 14px;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+/* About Content Box Part CSS End Here */
+
+
+/* ===================== About Page CSS End Here ==================== */
+
+
+
+/* ===================== Contact Page CSS Start Here ==================== */
+
+/* Contact Form Part CSS Start Here */
+#contact_form_part {
+    background: var(--bg-color);
+    padding: 80px 0px;
+}
+.contact_info_side {
+    margin-top: 100px;
+}
+.contact_form {
+    background-color: #1a191f;
+    border: 1px solid #222028;
+    padding: 20px;
+    border-radius: 6px;
+}
+.c_info_title_desp h2 {
+    color: var(--primary-color);
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
+    padding-bottom: 10px;
+}
+.c_info_title_desp p {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.contact_mob {
+    margin-top: 10px;
+}
+.contact_mob p {
+    color: var(--orange-color);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 15px;
+}
+.contact_social ul li {
+    margin-right: 8px;
+}
+.contact_social ul li a {
+    color: var(--blue-color);
+    font-size: 20px;
+}
+.contact_title h2 {
+    color: var(--primary-color);
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
+    padding-bottom: 20px;
+}
+.form_filed .form_input {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #222028;
+    border: 2px solid transparent;
+    height: 46px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 0 20px;
+}
+.form_filed .form_input:focus {
+    border-color: var(--orange-color);
+}
+.form_filed .form_text_area {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #222028;
+    border: 2px solid transparent;
+    height: 150px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 15px 20px;
+    resize: none;
+}
+.form_filed .form_text_area:focus {
+    border-color: var(--orange-color);
+}
+.form_send_btn .form_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    width: 140px;
+    border-radius: 6px;
+    background-color: transparent;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px solid var(--orange-color);
+    cursor: pointer;
+}
+/* Contact Form Part CSS End Here */
+
+/* ===================== Contact Page CSS End Here ==================== */
+
+
+
+/* ===================== SignIn/SignUp Page CSS Start Here ==================== */
+
+/* Signin/sinup part CSS Start Here */
+#signin_section {
+    background: var(--bg-color);
+}
+.signin_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.sign_form {
+    background-color: #1a191f;
+    border: 1px solid #222028;
+    border-radius: 6px;
+    padding: 30px 30px;
+    width: 100%;
+    max-width: 400px;
+}
+.flix_logo {
+    color: var(--orange-color);
+    font-size: 32px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
+}
+.flix_logo:hover {
+    color: var(--orange-color);
+}
+.flix_logo span {
+    color: var(--blue-color);
+}
+.sign_filed {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.sign_input {
+    width: 100%;
+    height: 46px;
+    background-color: #222028;
+    border: 2px solid transparent;
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 6px;
+    padding: 0 20px;
+}
+.sign_input:focus {
+    border-color: var(--orange-color);
+}
+.sign_group_checkbox {
+    margin-left: 3px;
+}
+.sign_group_checkbox label {
+    color: var(--primary-color);
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 5px;
+}
+.sign_group_checkbox label span{
+    color: var(--orange-color);
+}
+.sign_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    width: 100%;
+    border-radius: 6px;
+    background-color: transparent;
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    border: 2px solid var(--orange-color);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.sign_btn:hover {
+    color: var(--primary-color);
+    background-color: rgba(249,171,0,0.05);
+}
+.sign_social span {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 17px;
+    color: var(--primary-color);
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.sign_social ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.sign_social ul li a {
+    display: block;
+    padding: 4px 10px;
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.sign_social ul li a i {
+    margin-right: 8px;
+}
+.sign_social ul .log_fb {
+    background: #4367af;
+    border-radius: 4px;
+}
+.sign_social ul .log_goo {
+    background: #e45446;
+    border-radius: 4px;
+}
+.signin_text .sign_text {
+    color: var(--primary-color);
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    line-height: 30px;
+}
+.signin_text .sign_text a {
+    color: var(--orange-color);
+}
+/* Signin/sinup part CSS end Here */
+
+/* ===================== SignIn/SignUp Page CSS End Here ==================== */
+
+
+
+
+/* ===================== FAQ Page CSS Start Here ==================== */
+
+/* faq Part CSS Start Here */
+
+#flix_faq {
+    background: var(--bg-color);
+    padding: 50px 0px;
+}
+.flix_faq_min_card {
+    padding: 20px 40px 20px 20px;
+    background: #222028;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+.flix_faq_title h2 {
+    color: var(--primary-color);
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+.flix_faq_title h2 i {
+    color: var(--orange-color);
+    font-size: 14px;
+    margin-right: 5px;
+}
+.flix_faq_desp p {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* faq Part CSS End Here */
+
+/* ===================== FAQ Page CSS End Here ==================== */
+
+
+/* ===================== Privacy Policy Page CSS Start Here ==================== */
+
+/* Privacy Part CSS Start Here */
+#flix_policy {
+    background: var(--bg-color);
+    padding: 50px 0px;
+}
+.flix_policy_text .policy_text span {
+    color: var(--orange-color);
+}
+.flix_policy_text .policy_text {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+.policy_list .policy_min_list li {
+    list-style-type: decimal;
+    margin-left: 20px;
+    color: var(--primary-color);
+}
+.policy_list .policy_min_list li  h4 {
+    color: var(--orange-color);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    padding-bottom: 8px;
+}
+.policy_chiled_list {
+    margin-left: 30px;
+    list-style-type: decimal;
+    padding-bottom: 10px;
+}
+.policy_chiled_list li {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Privacy Part CSS End Here */
+
+/* ===================== Privacy Policy Page CSS End Here ==================== */
+
+
+
+/* ===================== 404 Page CSS Start Here ==================== */
+
+/* 404 Part CSS Start Here */
+#flix_error {
+    background: var(--bg-color);
+}
+.flix_error_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.flix_error_text h2 {
+    color: var(--orange-color);
+    font-size: 92px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 20px;
+}
+.error_signup_text span {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.error_signup_text span a {
+    color: var(--orange-color);
+    margin-left: 5px;
+}
+/* 404 Part CSS End Here */
+
+/* ===================== 404 Page CSS End Here ==================== */
+
+
+/* ===================== Footer CSS Start Here ==================== */
+
+/* Footer Part CSS Start Here */
+#footer_part {
+    background: var(--bg-color);
+    padding: 80px 0px;
+}
+
+.movo_footer {
+    border-bottom: 1px solid var(--gray-color);
+    padding-bottom: 15px;
+}
+
+.footer_widget .widget_com_title h4 {
+    color: var(--orange-color);
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer_widget .widget_content {
+    margin-top: 10px;
+}
+
+.footer_widget .widget_content ul li a,
+p {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    transition: all linear 0.3s;
+}
+
+.footer_widget .widget_content ul li a:hover {
+    color: var(--orange-color);
+}
+
+.copyright_text {
+    margin-top: 10px;
+}
+
+.copyright_text .footer_copyright p {
+    color: var(--gray-color);
+}
+
+.copyright_text .footer_copyright p a {
+    color: var(--orange-color);
+}
+
+/* Footer Part CSS End Here */
+
+/* ===================== Footer CSS Start Here ==================== */
+
+
+
+/* ===================== Back To Top CSS Start Here ==================== */
+/* Back To Top */
+.back-to-top {
+    width: 40px;
+    height: 40px;
+    background: var(--orange-color);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+.back-to-top a{
+    color: var(--primary-color);
+    font-size: 18px;
+}
+/* Back To Top */
+/* ===================== Back To Top CSS Start Here ==================== */
